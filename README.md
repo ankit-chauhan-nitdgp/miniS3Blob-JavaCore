@@ -2,17 +2,17 @@
 trying to replicate s3 basic features using java core libraries
 
 ## Core endpoints
-# PUT 
+### PUT 
 http://localhost:9000/bucket/docs/test1.jpg
 
-# PUT SIGNED
+### PUT SIGNED
 http://localhost:9000/bucket/docs/test1.jpg?expires=<TimeMills>&signature=<Hmac-signature>
 
-# GET 
+### GET 
 http://localhost:9000/bucket/docs/test1.jpg
 
-# GET SIGNED
+### GET SIGNED
 http://localhost:9000/bucket/docs/test1.jpg?expires=<TimeMills>&signature=<Hmac-signature>
 
-# DELETE 
+### DELETE 
 http://localhost:9000/bucket/docs/test1.jpg
